@@ -1,2 +1,7 @@
 Frivillighetsregisteret (Kajakk- og padleklubber)
-http://hotell.difi.no/download/brreg/frivillighetsregisteret
+* Orgnr, navn, kommune
+* http://hotell.difi.no/download/brreg/frivillighetsregisteret
+
+Anleggsregisteret
+* UTM-koordinater
+* http://hotell.difi.no/download/kud/idrettsanlegg
