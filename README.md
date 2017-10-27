@@ -1,11 +1,8 @@
 # Padleperler
 
-Mulige datakilder
-* Anleggsregisteret (havner o.l.)
-* Frivillighetsregisteret (kajakk-klubber og padlergrupper)
+Gruppe 7 - Hack4.no
 
-# Kartdata
-* Værdata (yr/met/nve - hvordan er været der jeg har tenkt meg)
-* Sjøkart
-* Terrengmodeller
-* Vannstand
+Visjon:
+* Vise padleperler (turer, guider, kart)
+* Turplanlegger
+* Kontaktpunkt for kajakk/padleforeninger
