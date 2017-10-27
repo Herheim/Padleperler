@@ -15,3 +15,26 @@ Padlebilder
 Padleruter
 * ut.no
 * godtur.no (turtyper: Padletur/rotur. Anlegg: båtutsett/teltplass)
+
+Kulturminnesøk
+* https://kulturminnesok.no/
+* Fyr
+* Kystfort
+* Skipsvrak
+* Havneområde
+* Forlislokalitet
+* Ankerplass
+* Kompassrose
+* Sjømerke
+* Båtstøanlegg (naust)
+* Ballastrøys
+
+Kulturminnebilder
+* https://kulturminnebilder.ra.no/fotoweb/
+
+Nansensenteret
+* https://www.nersc.no/
+
+Oslofjordens friluftsråd
+* Padlemål i Indre Oslofjord
+* http://maps.google.no/maps/ms?hl=no&ie=UTF8&t=h&msa=0&msid=105762628123895910018.000493c00d93f4ab67dc6&ll=59.888248,10.708923&spn=0.08612,0.206337&z=12&source=embed
