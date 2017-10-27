@@ -42,3 +42,6 @@ Oslofjordens friluftsråd
 Bergen og omland friluftsråd
 * Tur- og padlemål - Eksempel Tyssøy m/bilder
 * http://www.telltur.no/tyssoy-friluftsomrade/
+
+3D-visning
+* https://github.com/kartverket/wxs.threejs/
