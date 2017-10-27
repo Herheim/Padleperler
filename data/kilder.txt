@@ -48,3 +48,7 @@ Bergen og omland friluftsråd
 
 3D-visning
 * https://github.com/kartverket/wxs.threejs/
+
+Hav/sjø
+* Saltinnhold,sjøtemperatur, strømretning og fart  
+  http://bw-wms.met.no/barentswatch/default.map?&SERVICE=WMS&request=GetCapabilities&version=1.1.1
