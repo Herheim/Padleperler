@@ -1,7 +1,17 @@
 Frivillighetsregisteret (Kajakk- og padleklubber)
 * Orgnr, navn, kommune
 * http://hotell.difi.no/download/brreg/frivillighetsregisteret
+* http://www.padling.no/klubber/ kartvisning - samme kilde?
 
 Anleggsregisteret
 * UTM-koordinater
 * http://hotell.difi.no/download/kud/idrettsanlegg
+
+
+Padlebilder
+* Flickr (tags: kajakk, kayak, padling)
+* Instagram (tags: kajakk, kayak, padling)
+
+Padleruter
+* ut.no
+* godtur.no (turtyper: Padletur/rotur. Anlegg: båtutsett/teltplass)
