@@ -48,6 +48,14 @@ Bergen og omland friluftsråd
 
 3D-visning
 * https://github.com/kartverket/wxs.threejs/
+* Nidelva
+  - Bilde: https://upload.wikimedia.org/wikipedia/commons/9/9d/Bryggerekke_Nidelva.jpg
+  - Leirfossen (del av Nidelva)
+    Tur-rapport:
+    http://www.ntnuipadling.no/events/177/onsdagspadling-pa-nidelva-wednesday-whitewater-kayaking-on-nidelva/
+    3D-kart:
+    http://geo.ngu.no/kart/common_mobil/?_/kart/webgl/wxs.three-untiled.html__WIDTH=1535::HEIGHT=711::BBOX=269981.18701171875
+
 * Tyssøy - Smievågen
   - Faktaark:
     http://www.telltur.no/tyssoy-friluftsomrade/
