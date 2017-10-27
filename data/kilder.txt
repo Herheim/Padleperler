@@ -48,6 +48,11 @@ Bergen og omland friluftsråd
 
 3D-visning
 * https://github.com/kartverket/wxs.threejs/
+* Tyssøy - Smievågen
+  - Faktaark:
+    http://www.telltur.no/tyssoy-friluftsomrade/
+  - 3D-kart:
+    http://geo.ngu.no/kart/common_mobil/?_/kart/webgl/wxs.three-untiled.html__WIDTH=1535::HEIGHT=711::BBOX=-26071.44189453125
 
 Hav/sjø
 * Saltinnhold,sjøtemperatur, strømretning og fart  
