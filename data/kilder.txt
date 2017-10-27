@@ -10,6 +10,9 @@ Anleggsregisteret
 
 Padlebilder
 * Flickr (tags: kajakk, kayak, padling)
+  - API http://api.flickr.com/services/rest
+  - Finn bilder i nærheten av lokasjon
+    - https://gist.github.com/electricg/2359442
 * Instagram (tags: kajakk, kayak, padling)
 
 Padleruter
