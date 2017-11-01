@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css">
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.6/leaflet.markercluster.js"></script>
+    <div id="map" style="height: 100%"></div>
+    <script src="./badeplasser.js"></script>
+    <script src="./flytebrygger.js"></script>
+    <script src="./fyr.js"></script>
+    <script>
+        var layers = [L.tileLayer.wms(
+            'http://opencache.statkart.no/gatekeeper/gk/gk.open',
+            {
+                layers: 'sjokartraster',
+                format: 'image/png',
+                transparent: 'false',
+                version: '1.0',
+                attribution: "<a href='http://www.statkart.no/'>Kartverket</a>, <a href='http://www.statkart.no/nor/Land/Fagomrader/Geovekst/'>Geovekst</a>, <a href='http://www.statkart.no/?module=Articles;action=Article.publicShow;ID=14194'</a>kommuner</a> og <a href='http://www.npolar.no/'>Norsk Polarinstitutt</a>"
+            }
+        )];
+        var map = L.map('map', {
+            center: L.latLng(60.098, 6.541),
+            zoom: 13,
+            layers: layers
+        });
+
+        function addPois(pois, icon) {
+            for (var i=0; i<pois.length; i++) {
+                new L.marker([pois[i][0], pois[i][1]], {icon: icon})
+                    .addTo(map)
+                    .bindPopup("<span>" + pois[i][2] + "</span>");
+            }
+        }
+
+        var bryggeIcon = L.icon({
+            iconUrl: 'padlep_Badeplass.png',
+            iconSize:     [32, 32],
+            iconAnchor:   [16, 16],
+            popupAnchor:  [16, 0]
+        });
+        addPois(badeplasser, bryggeIcon);
+
+        var badeIcon = L.icon({
+            iconUrl: 'padlep_Brygge.png',
+            iconSize:     [32, 32],
+            iconAnchor:   [16, 16],
+            popupAnchor:  [16, 0]
+        });
+        addPois(flytebrygger, badeIcon);
+
+        var fyrIcon = L.icon({
+            iconUrl: 'pladlep_Fyr.png',
+            iconSize:     [32, 32],
+            iconAnchor:   [16, 16],
+            popupAnchor:  [16, 0]
+        });
+        addPois(fyr, fyrIcon);
+    </script>
+  </body>
+</html>
